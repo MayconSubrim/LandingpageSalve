@@ -139,9 +139,16 @@ body, section{
     padding: 10px;
     color: #7021BF;
     box-shadow: -4px 4px 0px #5f1ba3;
-
+    cursor: pointer;
 
 }
+
+
+.botaozinho:hover{
+    transform: scale(1.1);
+    transition: all 100ms;
+}
+
 
 .botaozinho span {
     scale: 0.5;
