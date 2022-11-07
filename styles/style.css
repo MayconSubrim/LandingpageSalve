@@ -543,7 +543,7 @@ body, section{
 
     /* WHITE */
 
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .header{
@@ -554,17 +554,18 @@ body, section{
     position: fixed;
     height: 70px;
     padding: 10px;
-    background: #ffffff00;;
 
 }
 
 .header img{
     width: 12%;
+    margin-left: 20px;
 }
 
 .header-right{
     display: flex;
     float: right;
+    margin-right: 20px;
     justify-content: right;
     width: 100%;
     align-items: center;
@@ -608,6 +609,12 @@ body, section{
 
 
 @media (min-width: 1366px) and (max-width: 1920px) {
+
+    .header img{
+        width: auto;
+    }
+
+
     .text p{
         font-size: 1.5rem;
     }
