@@ -411,7 +411,7 @@ body, section{
     position: relative;
     height: 1300px;
     float: right;
-    bottom: 70%;
+    bottom: 76%;
 
 }
 .forms .form{
@@ -606,6 +606,15 @@ body, section{
     scale: 1.1;
     cursor: pointer;
 }
+.btn-primary{
+    border-color: #f2773000 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    border-color: #F27830 !important;
+}
+
 
 
 @media (min-width: 1366px) and (max-width: 1920px) {
@@ -672,8 +681,6 @@ body, section{
         left: -82px;
     }
  }
-
-
 
 @media only screen and (max-width: 1000px) {
     .header{
