@@ -618,6 +618,10 @@ body, section{
 
 @media (min-width: 1366px) and (max-width: 1920px) {
 
+    #slider{
+        height: 92vh;
+    }
+
     .header img{
         width: auto;
     }
@@ -688,7 +692,7 @@ body, section{
 
     #slider{
         width: 100vw;
-        height: 50vh;
+        height: 32vh;
     }
 
     #slider ul li img{
@@ -840,6 +844,10 @@ body, section{
 
 
 @media only screen and (max-width: 480px) {
+
+    #slider{
+        height: 32vh;
+    }
     .introduction h2{
         font-size: 14px;
         position: relative;
@@ -955,6 +963,12 @@ body, section{
 
     .crytext p{
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #slider{
+        height: 28vh;
     }
 }
 
