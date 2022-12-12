@@ -71,6 +71,10 @@ body, section{
     right: 10px;
 }
 
+.header .header-right a {
+    text-decoration: none;
+}
+
 /*Introduçao a plataforma em si*/
 
 .introduction{
@@ -79,8 +83,9 @@ body, section{
     display: flex;
     flex-direction: row;
     overflow: hidden;
-
-
+}
+.introduction .text a {
+    text-decoration: none;
 }
 
 .img{
@@ -122,8 +127,12 @@ body, section{
     margin-top: 10px;
     margin-bottom: 10px;
     border-bottom: 6px solid purple;
-
 }
+
+.text h2 {
+    font-size: 45px;
+}
+
 
 
 .botaozinho{
@@ -155,6 +164,7 @@ body, section{
     position: relative;
     left: 3px;
 }
+
 
 
 /*Porque usar nossa plataforma*/
@@ -222,9 +232,14 @@ body, section{
     flex-direction: column; 
 }
 
+
 .circloide img{
     width: 100%;
     
+}
+.circloide:hover{
+    transform: scale(1.1);
+    transition: all 100ms;
 }
 
 .elements{
@@ -613,6 +628,65 @@ body, section{
     color: #fff;
     border-color: #F27830 !important;
 }
+.sobrenos{
+    width: 100vw;
+    height: 160vh;
+    background-color: #6422F2;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sessaozinha .titulo{
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.sessaozinha  img{
+   display: flex;
+   width: 800px;
+   height: 500px;
+   border-radius: 20px;
+}
+
+.readmore__content {
+    max-width: 45rem;
+    width: 100%;
+    display: flex;    
+}
+  
+.readmore__toggle {
+    display: flex;
+    margin-top: 1rem;
+    border: none;
+    background: #FAFAFA;
+    color: #7021BF;
+    font-size: 18px;
+    padding: .8rem;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: -4px 4px 0px  #5f1ba3;
+    margin-top: 15px;
+    
+}
+.readmore__toggle:focus{
+    outline: 0;
+}
+.readmore__toggle:hover{
+    transform: scale(1.1);
+    transition: all 100ms;
+}
+#readmore{
+    color:#FFFFFF;
+    font-size: 18px;
+    margin-top:30px;
+}
+
+
+
+
 
 
 
@@ -963,6 +1037,18 @@ body, section{
 
     .crytext p{
         font-size: 1.5rem;
+    }
+
+    .fundadores{
+        width: 80vw;
+    }
+
+    #readmore{
+        width: 70vw;
+    }
+
+    .readmore__content{
+        font-size: 12px;
     }
 }
 
