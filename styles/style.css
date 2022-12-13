@@ -914,6 +914,10 @@ body, section{
         bottom: 294px;
     }
 
+    .sobrenos{
+        display: none;
+    }
+
 }
 
 
@@ -1050,11 +1054,18 @@ body, section{
     .readmore__content{
         font-size: 12px;
     }
+
+    .sobrenos{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 380px) {
     #slider{
         height: 28vh;
+    }
+    .sobrenos{
+        display: none;
     }
 }
 
